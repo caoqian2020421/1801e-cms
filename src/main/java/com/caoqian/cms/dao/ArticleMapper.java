@@ -13,5 +13,14 @@ import com.caoqian.cms.domain.Article;
  */
 public interface ArticleMapper {
 
-	List<Article> selects();
+	/**
+	 * 
+	 * @Title: selects 
+	 * @Description: 文章列表查询
+	 * @param article
+	 * @return
+	 * @return: List<Article>
+	 */
+
+	List<Article> selects(Article article);
 }
